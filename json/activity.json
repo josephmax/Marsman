@@ -1,0 +1,39 @@
+{
+  "busiCode":"101026",
+  "code": 200,
+  "msg": "成功",
+  "data": {
+    "totalPage": 10,
+    "currPage": 2,
+    "list": [
+      {
+        "id": 1,
+        "image": "images/com_0002.jpg",
+        "title": "活动标题 ",
+        "subTitle": "副标题",
+        "address": "河北省邯郸市",
+        "time": "2015-12-12",
+        "isEnd": true
+      },
+      {
+        "id": 2,
+        "image": "images/com_001.jpg",
+        "title": "活动标题 ",
+        "subTitle": "副标题",
+        "address": "河北省邯郸市",
+        "time": "2015-12-12",
+        "isEnd": true
+      },
+      {
+        "id": 3,
+        "image": "images/com_0002.jpg",
+        "title": "活动标题 ",
+        "subTitle": "副标题",
+        "address": "河北省邯郸市",
+        "time": "2015-12-12",
+        "isEnd": true
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,11 @@
+{
+  "busiCode": "101001",
+  "code": 200,
+  "msg": "成功",
+  "data":
+  {
+    "token": "KJHLKLJLKSJDJ:LKJ",
+    "nickname": "李雷",
+    "avatar": "images/score_photo.png"
+  }
+}

@@ -1,0 +1,17 @@
+<ion-view class="animated bounceInUp">
+    <ion-content>
+        <div class="com_banner " ng-repeat="item in act.data.list" ui-sref="activityPage({id:item.id})" >
+            <img ng-src="{{item.image}}">
+            <div class="wrapper">
+                <div class="com_top no_borbtm">
+                    <h3>{{item.title}}</h3>
+                    <h5>{{item.subTitle}}</h5>
+                    <div class="com_info">
+                        <p>{{item.address}}</p>
+                        <p>{{item.time}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

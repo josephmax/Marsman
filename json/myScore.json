@@ -1,0 +1,56 @@
+{
+  "busiCode": "101008",
+  "code": 200,
+  "msg": "成功",
+  "data": {
+    "careersGrade": 85.5,
+    "historyWeek": 10,
+    "courseList": [
+      {
+        "week": 1,
+        "grade": "A+",
+        "coureTitle": "UI动效设计应用课",
+        "courseId": 1231
+      },
+      {
+        "week": 2,
+        "grade": "B+",
+        "coureTitle": "网页样式与布局设计课 I",
+        "courseId": 1231
+      },
+      {
+        "week": 3,
+        "grade": "C",
+        "coureTitle": "UI动效设计应用课",
+        "courseId": 1231
+      },
+      {
+        "week": 4,
+        "grade": "B-",
+        "coureTitle": "网页样式与布局设计课 I",
+        "courseId": 1231
+      },{
+        "week": 5,
+        "grade": "A+",
+        "coureTitle": "UI动效设计应用课",
+        "courseId": 1231
+      },
+      {
+        "week": 6,
+        "grade": "B+",
+        "coureTitle": "网页样式与布局设计课 I",
+        "courseId": 1231
+      }
+    ],
+    "beatRateList": [
+      {
+        "week": 1,
+        "classBeatRate": 91
+      },
+      {
+        "week": 2,
+        "classBeatRate": 91
+      }
+    ]
+  }
+}

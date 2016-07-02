@@ -1,0 +1,16 @@
+{
+  "busiCode":"101027",
+  "code": 200,
+  "msg": "成功",
+  "data": {
+    "id": 1,
+    "image": "images/com_0002.jpg",
+    "title": "活动标题 ",
+    "subTitle": "副标题",
+    "address": "河北省邯郸市",
+    "beginTime": "2016-06-01",
+    "endTime": "2016-12-10",
+    "content": "关于UI的讲座",
+    "isEnd": true
+  }
+}

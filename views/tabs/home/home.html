@@ -1,0 +1,49 @@
+<ion-view class="animated fadeIn">
+    <ion-content class="no-header" style="background-color: #f7f7f7;">
+
+        <!-- header -->
+        <header class="index_header" ui-sref="myScore">
+            <div class="head" ng-click="goSetting();$event.stopPropagation();">
+                <img src="images/header_001.png">
+            </div>
+            <div class="information">
+                <p>
+                    <span class="fB">李磊</span>总排名：11<br>
+                    平均成绩：A-<br>
+                    职业素质：95
+                </p>
+            </div>
+            <div class="calendar_icon">
+                <a href="#"><img src="images/header_signIn.png"></a>
+            </div>
+        </header>
+
+        <!-- main -->
+        <div class="wrapper">
+            <ion-slide-box auto-play="true" slide-interval="2000" show-pager="true"
+                           does-continue="true"
+                           pager-click="pagerClick(index)">
+                <ion-slide ng-repeat="item in banner">
+                    <div class="index_banner" ui-sref="activityPage({id:item.id})">
+                        <img ng-src="{{item.image}}">
+                    </div>
+                </ion-slide>
+            </ion-slide-box>
+            <div class="wrapper_title">
+                <h2>作品盒子</h2>
+                <p ui-sref="present">开启</p>
+            </div>
+
+            <div class="wrapper_content">
+                <div ng-repeat="item in home5star">
+                    <img ng-src="{{item.headImg}}" ui-sref="presentDetail({id:item.id})">
+                    <div class="wrapper_txt">
+                        <h3>{{item.authorName}}</h3>
+                        <p>{{item.classTitle}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </ion-content>
+</ion-view>

@@ -1,0 +1,36 @@
+<ion-view hide-back-button="false" class="animated2 slideInRight">
+    <!--<ion-content class="no-header">
+        <div class="button button-dark back_btn themeColor-bg" ng-click="back()">
+            <i class="icon ion-ios-arrow-back">校园通知</i>
+        </div>
+        <div class="wrapper">
+            <div class="com_top no_borbtm">
+                <h3 class="col60 inform_title">2016春季招聘会<span class="colGreen">#就业</span></h3>
+                <h6 class="mar_btm2 col60">2016-2-13&nbsp;&nbsp;&nbsp;03：51：57</h6>
+            </div>
+            <p class="info_txt col60 mar_top1">
+                2016年春季招聘会将于2016年4月12日在火星时代举行。<br>
+            </p>
+            <p class="info_txt col60">
+                2016年，火星时代已在全国十一所城市开设了实训基地，分别为北京、上海、广州、深圳、杭州、成都、武汉、西安、重庆、南京、厦门。在培养及帮助更多人实现梦想的同时，我们也收到了来自各校区知名企业的合作及人才需求。<br>
+            </p>
+            <p class="info_txt col60">
+                特此，火星时代将于2016年4月预备举办第七届大型人才专场（春季）招聘会，同时邀请各行业合作伙伴、知名企业、创业型公司加入，同时免费面向求职者开放，为广大的火星学员及行业从业者提供数量更多、领域更广、岗位更全的招聘会。为企业及人才提供更有力的沟通、交流、服务的平台，也希望借火星时代强大影响力和丰富资源，帮助火星学员实现个人价值。
+            </p>
+        </div>
+    </ion-content>-->
+    <ion-content>
+        <div class=" themeColor-bg" >
+        <div class="button back_btn icon ion-ios-arrow-back" ng-click="back()">校园通知</div>
+        </div>
+        <div class="wrapper">
+            <div class="com_top no_borbtm">
+                <h3 class="col60 inform_title">{{camDetail.data.title}}<span class="colGreen">#就业</span></h3>
+                <h6 class="mar_btm2 col60">{{camDetail.data.createTime}}&nbsp;&nbsp;&nbsp;03：51：57</h6>
+            </div>
+            <p class="info_txt col60 mar_top1">
+                {{camDetail.data.content}}
+            </p>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,15 @@
+{
+  "busiCode":"101018",
+  "code": 200,
+  "msg": "成功",
+  "data": {
+    "authorAvatar": "images/score_photo.png",
+    "authorName": "李雷",
+    "termTitle": "1602期",
+    "specialtyTitle": " UI视觉设计师班",
+    "classTitle": "1602期UI视觉设计师班1班【OT】",
+    "content": "<li class='item item-image'><img src='images/my_present.jpg'/></li>",
+    "browseNum": 200,
+    "praiseNum": 199
+  }
+}

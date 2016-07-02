@@ -1,0 +1,33 @@
+
+1.所有资源尽量使用英文命名且有意义
+2.统一编码UTF-8
+/*****************************************************************/
+|MarsMan
+	|
+	|css
+		|base.css					公共基础样式
+		|其他css命名 				如(张哲境):zzj_login.css
+	|
+	|media
+		|命名规则					如(张哲境):zzj_TokyoHot.mp4
+	|images
+		|公共图片请协商后命名		如:banner_bg.jpg
+		|其他图片命名				如(张哲境):zzj_btn_login.jpg
+	|
+	|js
+		|common.js					公共js
+		|其他js						如(张哲境):zzj_login.js
+	|
+	|data							模拟数据
+		|公共数据请协商后命名		公共json数据
+		|其他模拟数据				如(张哲境):zzj_login.json
+	|
+	|docs							开发文档
+		|MarsMan_项目说明			本文档
+	|
+	|views
+		|对应组员的姓名				如(张哲境):zzj
+			|组员对应的文件			如(张哲境的登录页面):login.html
+	|
+	|index.html						首页
+	|catalog.html					项目目录结构

@@ -1,0 +1,29 @@
+<ion-view hide-back-button="false" class="animated2 slideInRight">
+    <ion-content >
+        <div class=" themeColor-bg" >
+            <div class="button back_btn icon ion-ios-arrow-back" ng-click="back()">活动通知</div>
+        </div>
+        <section class="com_banner">
+            <img ng-src="{{actDetail.data.image}}">
+
+            <div class="wrapper">
+                <div class="com_top">
+                    <h3>{{actDetail.data.title}}</h3>
+                    <h5>{{actDetail.data.subTitle}}</h5>
+                    <div class="com_info">
+                        <p>{{actDetail.data.address}}</p>
+                        <p>{{actDetail.data.beginTime}} 16:00-18:30</p>
+                    </div>
+                </div>
+                <div class="com_buttom">
+                    <h3>简介</h3>
+                    <h5>{{actDetail.data.content}}</h5>
+                    <p>地址：{{actDetail.data.address}}</p>
+                    <p>时间：{{actDetail.data.beginTime}}</p>
+                </div>
+            </div>
+
+        </section>
+
+    </ion-content>
+</ion-view>

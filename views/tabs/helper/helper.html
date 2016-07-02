@@ -1,0 +1,25 @@
+<ion-view class="animated fadeIn">
+    <ion-content class="no-header">
+        <form action="#" method="POST" name="myForm">
+            <textarea class="jsl_txt"></textarea>
+            <input type="button" value="快来帮帮我" id="jsl_btn">
+        </form>
+        <section class="notice">
+            <p></p>
+            <table class="status">
+                <tr class="status_title f34">
+                    <td>提交时间</td>
+                    <td>处理状态</td>
+                    <td>处理状态</td>
+                </tr>
+                <tr ng-repeat="item in evalue">
+                    <td>{{item.date}}</td>
+                    <td>{{item.status}}</td>
+                    <td><input type='button' value='评价' class='pingJia' ng-click="showEvaluate()" ng-if="!(item.evaluate)">
+                        <span class="yiPingJia" ng-if="(item.evaluate)" >已评价</span>
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,34 @@
+<ion-view class="animated bounceInDown">
+    <ion-content class="no-header myScore">
+        <header class="jsl_header">
+            <img src="images/score_photo.png" alt="头像">
+            <div>
+                <p class="name">
+                    李雷
+                    <span>总排名：11</span>
+                </p>
+                <p>班级：1603UI视觉设计师班1班</p>
+                <p>作业提交率：100% 考勤率：99%</p>
+            </div>
+            <!--<p><span>李雷</span><br>班级：1603UI视觉设计师班1班<br>作业提交率：100% 考勤率：99%</p>-->
+        </header>
+        <section class="jsl_score1" >
+            <!--<img src="images/score1.jpg" alt="专业成绩">-->
+            <div>专业成绩</div>
+            <ion-scroll direction="x" scrollbar-x="false" scrollbar-y="false" height="180px" style="overflow: hidden">
+                <canvas id="canvas" ui-sref="myScoreShare" style="border:1px solid red;border-top:1px solid #ddf6f2"></canvas>
+            </ion-scroll>
+        </section>
+        <section class="jsl_score2" ui-sref="myKPI({careersGrade:scoreInfo.careersGrade})">
+            <p>职业素质分</p>
+            <div></div>
+        </section>
+        <section class="jsl_score3">
+            <img src="images/score2.jpg" alt="折线图">
+        </section>
+        <footer class="jsl_footer" on-swipe-up="back()">
+            <a href=""><img src="images/score_sanJiao.png" alt="上三角"></a>
+        </footer>
+    </ion-content>
+
+</ion-view>

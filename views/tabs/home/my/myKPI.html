@@ -1,0 +1,32 @@
+<ion-view>
+    <ion-nav-bar class="bar-dark themeColor-bg">
+        <ion-nav-back-button>
+            <i class="icon ion-ios-arrow-back"></i>
+        </ion-nav-back-button>
+    </ion-nav-bar>
+    <ion-content>
+        <section class="banner">
+            <div>
+                <h1 class="score">{{careersGrade}}</h1>
+                <p class="f20">职业素质分已经不满足<br/>毕业标准请注意</p>
+            </div>
+        </section>
+        <table class="dw_main">
+            <thead>
+            <tr class="box_1 f34">
+                <th>时间</th>
+                <th>调整分数</th>
+                <th>说明</th>
+            </tr>
+            </thead>
+
+            <tr class="box_2 f26" ng-repeat="item in myKPI.data.list">
+                <td>{{item.date}}</td>
+                <td class="f28">{{item.grade}}</td>
+                <td>{{item.explain}}</td>
+            </tr>
+
+        </table>
+
+    </ion-content>
+</ion-view>

@@ -1,0 +1,14 @@
+<ion-view class="animated bounceInUp">
+    <ion-content class="no-header">
+        <a ui-sref="campusPage">
+            <div class="wrapper">
+                <div class="com_top no_borbtm" ng-repeat="item in campus.data.newsList">
+                    <h3 class="col60 inform_title">{{item.title}}<span>{{item.createTime}}</span></h3>
+                    <p>#新闻</p>
+                    <h5 class="mar_btm2">{{item.describe}}....</h5>
+                </div>
+            </div>
+        </a>
+        <ion-infinite-scroll distance="1%" on-infinite="loadMore()" immediate-check="false"></ion-infinite-scroll>
+    </ion-content>
+</ion-view>

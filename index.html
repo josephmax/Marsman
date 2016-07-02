@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Title</title>
+
+    <!-- 从在线中文字体库引入了苹果丽黑字体样式，可通过加class="css3ff688a4562bd"实现-->
+    <link href='http://cdn.webfont.youziku.com/webfonts/nomal/25277/46604/5762e117f629df1194a9c766.css' rel='stylesheet' type='text/css' />
+    <!-- 在线云端中文字库-->
+    <!--<script type="text/javascript" src="http://cdn.webfont.youziku.com/wwwroot/js/wf/youziku.api.min.js"></script>-->
+    <script src="lib/jquery-2.2.0/jquery-2.2.0.min.js"></script>
+    <link rel="stylesheet" href="lib/ionic/css/ionic.min.css" type="text/css">
+    <script src="lib/ionic/js/ionic.bundle.min.js"></script>
+    <script src="lib/radialIndicator.min.js"></script>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript">
+        var app=angular.module("myApp",["ionic"]);
+    </script>
+    <script src="js/marsManApp.js"></script>
+    <script src="js/indexCtrl.js"></script>
+    <script src="js/filter.js"></script>
+    <script src="views/tabs/home/homeCtrl.js"></script>
+    <script src="views/tabs/home/my/myScoreCtrl.js"></script>
+    <script src="views/tabs/home/my/myScoreShareCtrl.js"></script>
+    <script src="views/tabs/home/my/myKPICtrl.js"></script>
+    <script src="views/tabs/home/present/presentCtrl.js"></script>
+    <script src="views/tabs/home/present/presentPages/presentDetailCtrl.js"></script>
+    <script src="views/tabs/helper/helperCtrl.js"></script>
+    <script src="views/tabs/community/communityCtrl.js"></script>
+    <script src="views/tabs/community/activity/activityCtrl.js"></script>
+    <script src="views/tabs/community/activity/activityPages/actDetailCtrl.js"></script>
+    <script src="views/tabs/community/campus/campusCtrl.js"></script>
+    <script src="views/tabs/community/campus/campusPages/campDetailCtrl.js"></script>
+    <script src="views/tabs/community/cgTop/cgTopCtrl.js"></script>
+    <script src="views/tabs/community/cgTop/cgTopPages/cgDetailCtrl.js"></script>
+    <script src="views/tabs/demo/demoCtrl.js"></script>
+    <script src="views/tabs/home/system/settingCtrl.js"></script>
+    <script src="views/loginCtrl.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="indexCtrl">
+<ion-nav-view></ion-nav-view>
+<div id="cover" ng-style="popupStyle.cover">
+    <div class="bh-pop-share" style="background-color: #fff;">
+        <h2 class="bh-share f40 fB">分享到</h2>
+        <div class="share_pic">
+            <div class="bh">
+                <img src="images/weixin.png"><br>
+                <span class="f20 shareTag">微信好友</span>
+            </div>
+            <div class="bh">
+                <img src="images/xinlang.png"><br>
+                <span class="f20 shareTag">新浪微博</span>
+            </div>
+            <div class="bh">
+                <img src="images/pengyouquan.png"><br>
+                <span class="f20 shareTag">朋友圈</span>
+            </div>
+            <div class="bh">
+                <img src="images/huoqulianjie.png"><br>
+                <span class="f20 shareTag">获取链接</span>
+            </div>
+        </div>
+        <div class="share_b themeColor-bg" ng-click="hideCover()">
+            取消
+        </div>
+    </div>
+</div>
+<span class="bh-popup f34" ng-style="popupStyle.get">
+    已获取链接
+</span>
+<div id="assess_cover" ng-style="popupStyle.assess">
+    <div class="pop_assess">
+        <ul class="pop_ul">
+            <li class="assess_first " ng-click="rate(1)" ng-style="star.one"></li>
+            <li ng-click="rate(2)" ng-style="star.two"></li>
+            <li ng-click="rate(3)" ng-style="star.three"></li>
+            <li class="assess_last " ng-click="rate(4)" ng-style="star.four"></li>
+        </ul>
+        <p>{{star.text}}</p>
+        <div class="assess_b" ng-click="submitRate()">
+            <button >确定</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "busiCode":"101025",
+  "code": 200,
+  "msg": "成功",
+  "data": {
+    "list": [
+      {
+        "id": 1,
+        "image": "images/banner_0001.jpg ",
+        "title": "活动标题 ",
+        "isEnd": true
+      },
+      {
+        "id": 2,
+        "image": "images/banner_0002.jpg",
+        "title": "活动标题 ",
+        "isEnd": true
+      },
+      {
+        "id": 3,
+        "image": "images/banner_0001.jpg",
+        "title": "活动标题 ",
+        "isEnd": true
+      }
+    ]
+  }
+}

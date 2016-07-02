@@ -1,0 +1,24 @@
+<ion-view class="animated slideInRight" id="presentDetail">
+    <div class="bar-dark themeColor-bg bar-header bar">
+        <button class="button button-icon icon ion-ios-arrow-back" ng-click="go_back()">
+        </button>
+        <button class="button button-icon icon ion-android-open pull-right">
+        </button>
+        <button class="button button-icon icon ion-thumbsup" ng-class="" >
+        </button>
+    </div>
+    <ion-content class="has-header">
+
+    <ul class="list">
+        <li class="item f34">京剧故事
+        <span class="right"><i class="icon ion-eye"></i>{{present.browseNum}}
+        <i class="icon ion-thumbsup"></i>{{present.praiseNum}}
+        </span>
+        </li>
+        <li class="item item-avatar-left f28 zzj_author_title">
+            <img ng-src="{{present.authorAvatar}}"/>{{present.authorName}} {{present.termTitle}}
+        </li>
+        <div ng-bind-html="present.content | trustHtml"></div>
+    </ul>
+    </ion-content>
+</ion-view>

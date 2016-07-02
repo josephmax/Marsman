@@ -1,0 +1,23 @@
+{
+  "busiCode": "101010",
+  "code": 200,
+  "msg": "成功",
+  "data": {
+    "totalPage": 45,
+    "currpage": 2,
+    "newsList": [
+      {
+        "id": 888,
+        "title": "老母猪下仔了",
+        "type": 1,
+        "createTime": "2016-12-31"
+      },
+      {
+        "id": 666,
+        "title": "晚上吃肉去",
+        "type": 3,
+        "createTime": "2016-01-31"
+      }
+    ]
+  }
+}

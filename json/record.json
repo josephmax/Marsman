@@ -1,0 +1,19 @@
+{
+  "busiCode":"101020",
+  "code": 200,
+  "msg": "成功",
+  "data": {
+    "list": [
+      {
+        "date": "2026-12-31 15:30:59",
+        "status": 3,
+        "evaluate": true
+      },
+      {
+        "date": "2026-12-31 15:30:59",
+        "status": 3,
+        "evaluate": false
+      }
+    ]
+  }
+}

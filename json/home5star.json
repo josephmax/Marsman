@@ -1,0 +1,25 @@
+{
+  "busiCode":"101015",
+  "code": 200,
+  "msg": "成功",
+  "data": {
+    "list": [
+      {
+        "id": 100,
+        "headImg": "images/work_02.png",
+        "authorName": "冯苏苏",
+        "termTitle": "1602期",
+        "specialtyTitle": " UI视觉设计师班",
+        "classTitle": "1603WEB前端班【OT】"
+      },
+      {
+        "id": 101,
+        "headImg": "images/work_03.png",
+        "authorName": "王妞妞",
+        "termTitle": "1603期",
+        "specialtyTitle": " UI视觉设计师班",
+        "classTitle": "1603WEB前端班"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "busiCode": "101009",
+  "code": 200,
+  "msg": "成功",
+  "data": {
+    "totalPage": 10,
+    "currPage": 2,
+    "list": [
+      {
+        "date": "2015-12-02",
+        "grade": -0.5,
+        "explain": "下午缺勤",
+        "totalGrade": 101.5
+      },
+      {
+        "date": "2015-12-02",
+        "grade": -0.5,
+        "explain": "下午缺勤",
+        "totalGrade": 101.5
+      },
+      {
+        "date": "2015-12-02",
+        "grade": -0.5,
+        "explain": "下午缺勤",
+        "totalGrade": 101.5
+      },
+      {
+        "date": "2015-12-02",
+        "grade": -0.5,
+        "explain": "下午缺勤",
+        "totalGrade": 101.5
+      },
+      {
+        "date": "2015-12-01",
+        "grade": 2,
+        "explain": "心情好呗",
+        "totalGrade": 102
+      }
+    ]
+  }
+}

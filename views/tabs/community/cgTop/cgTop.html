@@ -1,0 +1,16 @@
+<ion-view class="animated bounceInUp">
+    <ion-content>
+            <div class="dwCG_main" ng-click="goDetail()" collection-repeat="item in cgTopList.data.newsList">
+                <!--<img ng-src="{{item.image}}">-->
+                <img src="images/tp.jpg">
+                <span class="dw_cgCover"></span>
+                <div>
+                    <!--<h3>{{item.title}}</h3>-->
+                    <h3>{{item.title}}</h3>
+                    <!--<p>{{item.subtitle}}</p>-->
+                    <p> {{item.subTitle}}</p>
+                </div>
+            </div>
+            <ion-infinite-scroll distance="1%" on-infinite="loadMore()" immediate-check="false"></ion-infinite-scroll>
+    </ion-content>
+</ion-view>

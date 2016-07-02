@@ -1,0 +1,47 @@
+{
+  "busiCode": "101016",
+  "code": 200,
+  "msg": "成功",
+  "data": {
+    "totalPage": 50,
+    "currPage": 2,
+    "list": [
+      {
+        "id": 100,
+        "headImg": "images/work_02.png",
+        "authorAvatar": "images/score_photo.png",
+        "authorName": "李雷",
+        "termTitle": "1602期",
+        "specialtyTitle": " UI视觉设计师班",
+        "classTitle": "1602期UI视觉设计师班1班【OT】"
+      },
+      {
+        "id": 101,
+        "headImg": "images/present_pic1.jpg",
+        "authorAvatar": "images/score_photo.png",
+        "authorName": "韩梅梅",
+        "termTitle": "1603期",
+        "specialtyTitle": " UI视觉设计师班",
+        "classTitle": "1603期UI视觉设计师班2班"
+      },
+      {
+        "id": 102,
+        "headImg": "images/present_pic2.jpg",
+        "authorAvatar": "images/score_photo.png",
+        "authorName": "韩梅梅",
+        "termTitle": "1603期",
+        "specialtyTitle": " UI视觉设计师班",
+        "classTitle": "1603期UI视觉设计师班2班"
+      },
+      {
+        "id": 103,
+        "headImg": "images/present_pic3.jpg",
+        "authorAvatar": "images/score_photo.png",
+        "authorName": "韩梅梅",
+        "termTitle": "1603期",
+        "specialtyTitle": " UI视觉设计师班",
+        "classTitle": "1603期UI视觉设计师班2班"
+      }
+    ]
+  }
+}
