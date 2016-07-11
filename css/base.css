@@ -7,6 +7,7 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     vertical-align: baseline;
     font: inherit;
     font-size: 62.5%;
+    font-family:"微软雅黑 Light";
 }
 /*定义了火星人项目字体尺寸基准*/
 
@@ -92,7 +93,7 @@ a:hover {
     justify-content: space-between;
     -webkit-box-pack: justify; /*兼容09年弹性布局方法*/
     box-sizing: border-box;
-    font-family: "微软雅黑";
+    font-family: "微软雅黑 Light";
     font-size: 2rem;
 }
 
@@ -164,6 +165,11 @@ a:hover {
 @media screen and (min-width: 760px){
     a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video{
         font-size: 100%;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 759px) {
+    a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video{
+        font-size: 12px;
     }
 }
 

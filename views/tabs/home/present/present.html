@@ -1,10 +1,9 @@
 <ion-view class="animated2 slideInRight">
-    <ion-nav-bar class="bar-dark themeColor-bg">
-        <ion-nav-back-button>
-            <i class="icon ion-ios-arrow-back"></i>
-        </ion-nav-back-button>
-    </ion-nav-bar>
-    <ion-content>
+    <div class="bar-dark themeColor-bg bar-header bar">
+        <button class="button button-icon icon ion-ios-arrow-back" ui-sref="tabs.home">
+        </button>
+    </div>
+    <ion-content class="has-header">
         <div class="wrapper presentBox">
             <div class="presentItem" ng-repeat="item in presents">
                 <div class="imgWrap" ui-sref="presentDetail({id:item.id})">

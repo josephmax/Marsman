@@ -16,7 +16,21 @@
             <!--<img src="images/score1.jpg" alt="专业成绩">-->
             <div>专业成绩</div>
             <ion-scroll direction="x" scrollbar-x="false" scrollbar-y="false" height="180px" style="overflow: hidden">
-                <canvas id="canvas" ui-sref="myScoreShare" style="border:1px solid red;border-top:1px solid #ddf6f2"></canvas>
+                <canvas id="canvas"></canvas>
+                <table >
+                    <tr style="position:absolute;top:0;left:0;">
+                        <td ng-style="score_tab"
+                            ng-repeat="item in score"
+                            ui-sref="myScoreShare({courseId:item.courseId})">
+                            <p ng-if="showCourse.show">{{item.courseTitle}}</p>
+                        </td>
+                    </tr>
+                    <tr style="position:absolute;top:0;left:0;">
+                        <td>
+
+                        </td>
+                    </tr>
+                </table>
             </ion-scroll>
         </section>
         <section class="jsl_score2" ui-sref="myKPI({careersGrade:scoreInfo.careersGrade})">

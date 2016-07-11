@@ -777,7 +777,9 @@
         height: 22.7rem;
     }
 }
+@media screen and (min-width: 400px) and (max-width: 759px){
 
+}
 
 /*JSL Helper*/
 .jsl_txt{
@@ -947,6 +949,10 @@
     height:1.8rem;
     border:1px solid #a9dfe1;
     border-radius: 0.7rem;
+    background-image: url("../images/linear.png");
+    -webkit-background-size:contain;
+    background-size:contain;
+    background-repeat:no-repeat;
 }
 /**/
 .jsl_score3{
@@ -976,10 +982,18 @@
     height: 100%;
 }
 /*DW KPI*/
-.banner>div{
-    background:url("../images/spec_score03.png") no-repeat;
-    background-size: 100% 100%;;
-    color: #bfbfbf;;
+
+#indicatorContainerWrap{
+    position: relative;
+}
+#indicator_text{
+    position: absolute;
+    width: 100%;
+    bottom:-45px;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size:1.5rem;
+    font-family:"微软雅黑 Light";
 }
 .dw_header img{
     height:2rem ;
@@ -1142,6 +1156,8 @@
     position: fixed;
     top: 5%;
     left: 5%;
+    width: 10%;
+    height: 10%;
     animation: move 1s infinite;
 }
 
@@ -1367,7 +1383,32 @@
     background-repeat: no-repeat;
     background-size: 38px;
 }
-
+@media screen and (min-width:760px) {
+    .icon-home:before{
+        content:"";
+        background-size: 58px;
+    }
+    .icon-home_active:before{
+        content:"";
+        background-size: 58px;
+    }
+    .icon-community:before{
+        content:"";
+        background-size: 58px;
+    }
+    .icon-community_active:before{
+        content:"";
+        background-size: 58px;
+    }
+    .icon-helper:before{
+        content:"";
+        background-size: 58px;
+    }
+    .icon-helper_active:before{
+        content:"";
+        background-size: 58px;
+    }
+}
 #mainTabs .tabs {
     height: 5.3rem;
 }
@@ -1496,6 +1537,39 @@
     color: #FFF;
 }
 
+.dw_login{
+    width:100%;
+    border-bottom:1px solid #7c848f;
+}
+.dw_password{
+    width:100%;
+    border-bottom:1px solid #7c848f
+}
+.dw_name{
+    border:none;
+}
+.dw_bd{
+    border-width:0;
+}
+.dw_dl{
+    border-width:0;
+    text-align: center;
+}
+.dw_btn{
+    background-color: transparent;
+    border-radius:30px;
+    border: 2px solid #23a3ae;
+    color:#fff;
+    font-size:18px;
+    transition: all 1s;
+}
+.dw_btn:active{
+    background-color: #23a3ae;
+}
+.dw_dl span{
+    font-size:22px;
+    color:#595a5e;
+}
 /*作品详情页*/
 #presentDetail .bar>.button.pull-right{
     right: 50px;

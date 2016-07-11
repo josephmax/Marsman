@@ -39,13 +39,14 @@ app.controller("myScoreCtrl",function($scope,$http,$ionicGesture,$state,$rootSco
             canvasGra.addColorStop(1,"#75c7ef");
             cxt.fillStyle =canvasGra;
             cxt.fill();
-            for (var i = 1; i < $scope.score.length; i++) {
+            /*for (var i = 1; i < $scope.score.length; i++) {
                 cxt.moveTo((i-1)*100+50,scaleHeight*100+paddingTop);
                 cxt.lineTo((i-1)*100+50,0);
-                cxt.strokeStyle="#ddf6f2";
+
                 cxt.stroke();
-            }
+            }*/
             //填充
+            cxt.strokeStyle="#ddf6f2";
             cxt.stroke();
 
 
@@ -63,6 +64,12 @@ app.controller("myScoreCtrl",function($scope,$http,$ionicGesture,$state,$rootSco
             }
         })
     });
+
+    $scope.score_tab={
+        border:"2px solid skyblue"
+        ,height:"14rem"
+        ,width:"98px"
+    };
 
     $scope.back=function(){
 
